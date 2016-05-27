@@ -1,0 +1,9 @@
+{
+  "name": "reverie",
+  "author": "Vincent Kristoffer Canete",
+  "license": "MIT",
+  "dependencies": {
+    "foundation": "^5.5.3"
+  },
+  "overrides": {}
+}
