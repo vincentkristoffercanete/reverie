@@ -1,9 +1,8 @@
-
 Reverie is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation, Gulp and Bower.
 
 A Brief Introduction
 ====================
-Reverie Framework is an extremely versatile HTML5 WordPress framework based on ZURB's [Foundation](http://foundation.zurb.com), Bower (http://bower.io/) and Gulp(http://gulpjs.com/). Reverie follows [HTML5 Boilerplate](http://html5boilerplate.com) standard and is [hNews microformat](https://www.readability.com/publishers/guidelines) ready. It is optimized for Search Engine while at the same time improves readability.
+Reverie Framework is an extremely versatile HTML5 WordPress framework based on ZURB's [Foundation](http://foundation.zurb.com), [Bower](http://bower.io/) and [Gulp](http://gulpjs.com/). Reverie follows [HTML5 Boilerplate](http://html5boilerplate.com) standard and is [hNews microformat](https://www.readability.com/publishers/guidelines) ready. It is optimized for Search Engine while at the same time improves readability.
 
 ## Requirements
 
