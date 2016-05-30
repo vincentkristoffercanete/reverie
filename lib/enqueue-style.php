@@ -10,7 +10,7 @@ if( ! function_exists( 'reverie_enqueue_style' ) ) {
 		wp_register_style( 'reverie-foundation-stylesheet', get_stylesheet_directory_uri() . '/dist/styles/main.css', array(), '' );
 
 		// Register the main style
-		wp_register_style( 'reverie-stylesheet', get_stylesheet_directory_uri() . '/assets/styles/style.css', array(), '', 'all' );
+		wp_register_style( 'reverie-stylesheet', get_stylesheet_directory_uri() . '/assets/styles/app.css', array(), '', 'all' );
 		
 		wp_enqueue_style( 'reverie-foundation-stylesheet' );
 		wp_enqueue_style( 'reverie-stylesheet' );

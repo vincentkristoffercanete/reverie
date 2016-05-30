@@ -1,4 +1,3 @@
-# reverie
 Reverie is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation, Gulp and Bower.
 
 A Brief Introduction
