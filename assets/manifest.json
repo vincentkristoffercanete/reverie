@@ -2,7 +2,7 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/main.js"
+        "scripts/app.js"
       ],
       "main": true
     },
@@ -12,11 +12,16 @@
       ],
       "main": true
     },
+    "app.css": {
+      "files": [
+        "styles/app.css"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     }
   },
   "config": {
-    "devUrl": "http://bedrock.dev"
+    "devUrl": "http://example.com"
   }
 }

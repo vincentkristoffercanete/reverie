@@ -128,10 +128,6 @@ if( ! function_exists( 'reverie_scripts_and_styles ' ) ) {
 	    // adding Foundation scripts file in the footer
 	    wp_register_script( 'reverie-js', get_template_directory_uri() . '/dist/scripts/main.js', array( 'jquery' ), '', true );
 
-	    // adding custom scripts file in the footer
-	    wp_register_script( 'app-js', get_template_directory_uri() . '/assets/scripts/app.js', array( 'jquery' ), '', true );
-
-
 	    /*
 	    I recommend using a plugin to call jQuery
 	    using the google cdn. That way it stays cached
@@ -139,7 +135,6 @@ if( ! function_exists( 'reverie_scripts_and_styles ' ) ) {
 	    */
 	    wp_enqueue_script( 'jquery' );
 	    wp_enqueue_script( 'reverie-js' );
-	    wp_enqueue_script( 'app-js' );
 	  }
 	}
 }
