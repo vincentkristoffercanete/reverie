@@ -17,6 +17,6 @@
     }
   },
   "config": {
-    "devUrl": "http://bedrock.dev"
+    "devUrl": "http://example.com"
   }
 }
