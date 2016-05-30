@@ -42,9 +42,10 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 ###Installation###
 * npm install
 * bower install
+* change 'devUrl' in manifest.json - assets/manifest.json
 * run 'gulp' and 'gulp watch'
 
 ###Credits###
-* milohuang
+* milohuang (https://github.com/milohuang/reverie)
 
 Please note Reverie Framework is under MIT License, the same as Foundation.
