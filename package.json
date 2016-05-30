@@ -3,12 +3,11 @@
   "version": "5.5.3",
   "description": "",
   "author": "Vincent Kristoffer Canete",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentkristoffercanete/reverie.git"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
