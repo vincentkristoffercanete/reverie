@@ -8,6 +8,10 @@
     "url": "git+https://github.com/vincentkristoffercanete/reverie.git"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentkristoffercanete/reverie/issues"
+  },
+  "homepage": "https://github.com/vincentkristoffercanete/reverie#readme",
   "scripts": {
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
