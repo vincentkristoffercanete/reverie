@@ -260,6 +260,8 @@ ol.commentlist li section.comment a.comment-reply-link:hover, ol.commentlist li 
 }
 .top-bar .alert-box{
   line-height: 1;
+  max-width: 640px;
+  float: right;
 }
 
 @media only screen and (min-width: 1025px) {
