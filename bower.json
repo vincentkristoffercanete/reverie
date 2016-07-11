@@ -3,8 +3,7 @@
   "author": "Vincent Kristoffer Canete",
   "license": "MIT",
   "dependencies": {
-    "foundation": "^5.5.3",
-    "owl.carousel": "^2.1.6"
+    "foundation": "^5.5.3"
   },
   "overrides": {}
 }

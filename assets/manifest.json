@@ -12,11 +12,6 @@
       ],
       "main": true
     },
-    "app.css": {
-      "files": [
-        "styles/app.css"
-      ]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     }
