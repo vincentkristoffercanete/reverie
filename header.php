@@ -11,7 +11,7 @@
 	<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
 
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
 	<!-- Favicon and Feed -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
@@ -25,10 +25,20 @@
 
 <header class="contain-to-grid">
 	<!-- Starting the Top-Bar -->
+	<?php $custom_logo_id = get_theme_mod( 'custom_logo' );
+	$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' ); ?>
 	<nav class="top-bar" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
-	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<?php
+								if ($logo) {
+									echo '<img src="' . $logo[0] .'">';
+								} else {
+									echo bloginfo( 'name' );
+								}
+							?>
+						</a></h1>
 	        </li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -39,7 +49,7 @@
 	            'theme_location' => 'primary',
 	            'container' => false,
 	            'depth' => 0,
-	            'items_wrap' => '<ul class="left">%3$s</ul>',
+	            'items_wrap' => '<ul class="right">%3$s</ul>',
 	            'fallback_cb' => 'reverie_menu_fallback', // workaround to show a message to set up a menu
 	            'walker' => new reverie_walker( array(
 	                'in_top_bar' => true,
