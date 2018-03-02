@@ -5,5 +5,11 @@
   "dependencies": {
     "foundation": "^5.5.3"
   },
-  "overrides": {}
+  "overrides": {
+    "modernizr": {
+      "main": [
+        "modernizr.js"
+      ]
+    }
+  }
 }
